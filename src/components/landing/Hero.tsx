@@ -1,7 +1,6 @@
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
 import { PlaceHolderImages } from '@/lib/placeholder-images';
-import { Snowflake } from 'lucide-react';
 
 export function Hero() {
   const heroImage = PlaceHolderImages.find(img => img.id === 'panettone-hero');
@@ -32,9 +31,6 @@ export function Hero() {
           <div className="mt-10 flex items-center gap-x-6">
             <Button asChild size="lg" className="font-bold shadow-lg shadow-primary/30">
               <a href="#pricing">Quiero Empezar Ahora</a>
-            </Button>
-            <Button asChild variant="link" className="text-foreground/80 font-semibold">
-              <a href="#features">Ver lo que incluye &rarr;</a>
             </Button>
           </div>
         </div>
