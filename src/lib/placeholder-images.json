@@ -1,3 +1,52 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "panettone-hero",
+      "description": "A festive hero image of a delicious panettone, garnished with fruits and powdered sugar.",
+      "imageUrl": "https://images.unsplash.com/photo-1509727090451-6052b6d62425?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwYW5ldHRvbmUlMjBjaHJpc3RtYXN8ZW58MHx8fHwxNzYxMzQ0MTQ4fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "panettone christmas"
+    },
+    {
+      "id": "recipe-card-1",
+      "description": "A close-up shot of a slice of panettone.",
+      "imageUrl": "https://images.unsplash.com/photo-1611107517117-e5f1b0c898bf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxwYW5ldHRvbmUlMjBzbGljZXxlbnwwfHx8fDE3NjEzNDY5MTR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "panettone slice"
+    },
+    {
+      "id": "recipe-card-2",
+      "description": "The process of baking panettone.",
+      "imageUrl": "https://images.unsplash.com/photo-1569767143908-1342240550ce?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxiYWtpbmclMjBwYW5ldHRvbmV8ZW58MHx8fHwxNzYxMzQ2OTE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "baking panettone"
+    },
+    {
+      "id": "recipe-card-3",
+      "description": "A beautifully wrapped panettone as a gift.",
+      "imageUrl": "https://images.unsplash.com/photo-1480632563560-30f503c09195?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxwYW5ldHRvbmUlMjBnaWZ0fGVufDB8fHx8MTc2MTM0NjkxNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "panettone gift"
+    },
+    {
+      "id": "fitness-panettone",
+      "description": "A healthy, fitness-friendly version of panettone.",
+      "imageUrl": "https://images.unsplash.com/photo-1723585137190-6ebb0afa1de6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw4fHxoZWFsdGh5JTIwZGVzc2VydHxlbnwwfHx8fDE3NjEyNjk3ODl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "healthy dessert"
+    },
+    {
+      "id": "packaging-guide",
+      "description": "Panettones in beautiful, economic packaging.",
+      "imageUrl": "https://images.unsplash.com/photo-1608825154649-2e9bb4cd4211?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwzfHxnaWZ0JTIwd3JhcHBpbmd8ZW58MHx8fHwxNzYxMzQ2OTE0fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "gift wrapping"
+    },
+    {
+      "id": "cost-calculator",
+      "description": "An image representing financial calculation for a small business.",
+      "imageUrl": "https://images.unsplash.com/photo-1631514623720-7f0996f87b75?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8YnVzaW5lc3MlMjBmaW5hbmNlfGVufDB8fHx8MTc2MTM0NjkxNHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "business finance"
+    },
+    {
+      "id": "instagram-feature",
+      "description": "A smartphone showing an engaging Instagram feed for a food business.",
+      "imageUrl": "https://images.unsplash.com/photo-1573152143286-0c422b4d2175?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzb2NpYWwlMjBtZWRpYXxlbnwwfHx8fDE3NjEyNjUxMTF8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "social media"
+    }
+  ]
 }
