@@ -6,7 +6,7 @@ export function Hero() {
   const heroImage = PlaceHolderImages.find(img => img.id === 'panettone-hero');
 
   return (
-    <section className="relative h-[90svh] min-h-[700px] w-full overflow-hidden bg-primary/10">
+    <section className="relative h-[90svh] min-h-[700px] w-full overflow-hidden bg-primary/10 flex items-center justify-center">
       {heroImage && (
         <Image
           src={heroImage.imageUrl}
@@ -20,8 +20,8 @@ export function Hero() {
       <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent" />
       <div className="absolute inset-0 bg-gradient-to-r from-background via-background/50 to-transparent" />
       
-      <div className="container relative z-10 flex h-full flex-col items-center justify-center text-center">
-        <div className="max-w-2xl">
+      <div className="container relative z-10 text-center">
+        <div className="max-w-3xl mx-auto">
           <h1 className="font-headline text-4xl font-bold tracking-tight text-primary md:text-6xl lg:text-7xl text-balance">
             ¡Transforma tu Navidad en algo lucrativo, incluso comenzando desde cero!
           </h1>
