@@ -1,4 +1,3 @@
-import { Header } from '@/components/landing/Header';
 import { Hero } from '@/components/landing/Hero';
 import { Features } from '@/components/landing/Features';
 import { Pitch } from '@/components/landing/Pitch';
@@ -14,7 +13,6 @@ import { SectionSeparator } from '@/components/landing/SectionSeparator';
 export default function Home() {
   return (
     <div className="flex min-h-screen flex-col overflow-x-hidden">
-      <Header />
       <main className="flex-1">
         <Hero />
         <Features />
