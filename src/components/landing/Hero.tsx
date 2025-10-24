@@ -23,10 +23,6 @@ export function Hero() {
       
       <div className="container relative z-10 flex h-full flex-col items-start justify-center text-left">
         <div className="max-w-2xl">
-          <div className="mb-4 flex items-center gap-2 rounded-full border border-primary/20 bg-background/50 px-4 py-1 text-sm text-primary backdrop-blur-sm">
-            <Snowflake className="h-4 w-4" />
-            <span>Edición Navideña 2024</span>
-          </div>
           <h1 className="font-headline text-4xl font-bold tracking-tight text-primary md:text-6xl lg:text-7xl text-balance">
             ¡Transforma tu Navidad en algo lucrativo, incluso comenzando desde cero!
           </h1>
