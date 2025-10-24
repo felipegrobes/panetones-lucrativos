@@ -1,8 +1,6 @@
 "use client";
 
 import { Gift, HeartPulse, Package, Calculator, Instagram } from 'lucide-react';
-import { Card, CardContent, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
-import { InstagramPrompter } from './InstagramPrompter';
 
 const bonuses = [
   {
@@ -53,22 +51,6 @@ export function Bonuses() {
             </div>
           ))}
         </div>
-        <Card className="mt-16 bg-card/50 shadow-xl border-primary/10">
-          <CardHeader>
-            <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
-              <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-lg bg-primary/10 text-primary">
-                <Instagram className="h-6 w-6" />
-              </div>
-              <div>
-                <CardTitle className="font-headline text-2xl">Prueba el Generador de Contenido para Instagram</CardTitle>
-                <CardDescription>Genera ideas para tus posts y aumenta tu alcance. ¡Es parte del regalo #4!</CardDescription>
-              </div>
-            </div>
-          </CardHeader>
-          <CardContent>
-            <InstagramPrompter />
-          </CardContent>
-        </Card>
       </div>
     </section>
   );
