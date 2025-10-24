@@ -10,7 +10,7 @@ const features = [
   {
     icon: <BarChart className="h-8 w-8 text-primary" />,
     title: 'Tabla de Precios',
-    description: 'Te ayudaremos para que pongas el precio justo y obtengas grandes ganancias.',
+    description: 'No tienes que preocuparte por la fijación de precios, nosotros te ayudaremos para que pongas el precio justo y obtengas grandes ganancias.',
   },
   {
     icon: <ShoppingBag className="h-8 w-8 text-primary" />,

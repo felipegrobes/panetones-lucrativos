@@ -28,7 +28,7 @@ export function Hero() {
             <span>Edición Navideña 2024</span>
           </div>
           <h1 className="font-headline text-4xl font-bold tracking-tight text-primary md:text-6xl lg:text-7xl text-balance">
-            ¡Transforma tu Navidad en algo lucrativo!
+            ¡Transforma tu Navidad en algo lucrativo, incluso comenzando desde cero!
           </h1>
           <p className="mt-6 text-lg leading-8 text-foreground/80 md:text-xl text-balance">
             Aprende las recetas más rentables y fáciles de panetones y gana dinero esta Navidad. ¡No te quedes atrás!

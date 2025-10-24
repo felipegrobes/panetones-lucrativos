@@ -20,7 +20,7 @@ const bonuses = [
   {
     icon: <Calculator className="h-6 w-6" />,
     title: 'Hoja de Cálculo de Costos + Simulador de Ganancias',
-    description: 'Sabe exactamente cuánto estás gastando y ganando con cada venta.',
+    description: 'Sabe exactamente cuánto estás gastando y cuánto estás ganando con cada venta.',
     number: 3,
   },
   {

@@ -6,9 +6,9 @@ const offerItems = [
   'Tabla de Precios',
   'Guía para Vender Panetones',
   '15 Recetas de Panetones Fitness',
-  'Guía de Empaques',
-  'Hoja de Cálculo de Costos',
-  'Generador para Instagram',
+  'Guía de Empaques Económicos y Bonitos',
+  'Hoja de Cálculo de Costos + Simulador de Ganancias',
+  'Instagram Rentable',
 ];
 
 export function Pricing() {
