@@ -17,14 +17,14 @@ export function Pricing() {
       <div className="container">
         <div className="mx-auto max-w-4xl overflow-hidden rounded-2xl shadow-2xl shadow-primary/10">
           <div className="grid md:grid-cols-2">
-            <div className="bg-primary/5 p-8 md:p-12">
+            <div className="p-8 md:p-12" style={{ backgroundColor: '#F3D2D1' }}>
               <h3 className="font-headline text-2xl font-bold text-primary">
                 ¡ATENCIÓN!
               </h3>
               <p className="mt-2 text-foreground/80">
                 ¡Esta oferta puede terminar en cualquier momento! La Navidad se acerca y el tiempo para comenzar se está acabando...
               </p>
-              <h4 className="mt-8 font-headline text-xl font-semibold">Todo lo que obtendrás:</h4>
+              <h4 className="mt-8 font-headline text-xl font-semibold text-primary">Todo lo que obtendrás:</h4>
               <ul className="mt-4 space-y-2">
                 {offerItems.map((item) => (
                   <li key={item} className="flex items-start gap-3">
