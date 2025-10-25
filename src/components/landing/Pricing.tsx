@@ -41,6 +41,7 @@ export function Pricing() {
                 <p className="mt-4 text-xl text-muted-foreground line-through">
                     De $40,00 USD
                 </p>
+                <p className="mt-1 text-lg text-muted-foreground">por solo</p>
                 <p className="font-headline text-5xl font-bold text-primary">
                     $4,90<span className="text-2xl font-medium text-foreground/50"> USD</span>
                 </p>
