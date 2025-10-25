@@ -28,7 +28,7 @@ export function Pricing() {
               <ul className="mt-4 space-y-2">
                 {offerItems.map((item) => (
                   <li key={item} className="flex items-start gap-3">
-                    <div className="flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-accent/20 text-accent">
+                    <div className="flex h-6 w-6 flex-shrink-0 items-center justify-center rounded-full bg-green-500/20 text-green-600">
                       <Check className="h-4 w-4" />
                     </div>
                     <span className="text-foreground/80">{item}</span>
