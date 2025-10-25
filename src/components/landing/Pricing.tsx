@@ -41,8 +41,8 @@ export function Pricing() {
                 <p className="mt-4 text-xl text-muted-foreground line-through">
                     De $40,00 USD
                 </p>
-                <p className="font-headline text-6xl font-bold text-primary">
-                    $4,90<span className="text-3xl font-medium text-foreground/50"> USD</span>
+                <p className="font-headline text-5xl font-bold text-primary">
+                    $4,90<span className="text-2xl font-medium text-foreground/50"> USD</span>
                 </p>
                 <Button asChild size="lg" className="mt-8 w-full font-bold text-base sm:text-lg py-6 sm:py-8 shadow-lg shadow-primary/30 transform transition-transform hover:scale-105">
                   <a href="#">¡SÍ, QUIERO LA OFERTA!</a>
