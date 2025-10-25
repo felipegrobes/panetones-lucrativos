@@ -54,7 +54,7 @@ export function Pricing() {
                     ¡NO TE PREOCUPES!
                   </h3>
                   <p className="mt-2 text-foreground/80 text-balance">
-                    El valor de $4,90 USD se convertirá automáticamente a la moneda de tu país cuando hagas clic en "¡SÍ, QUIERO LA OFERTA!". Además, podrás pagar con los métodos de pago locales de tu país.
+                    El valor de <span className="font-bold">$4,90 USD</span> se convertirá automáticamente a la moneda de tu país cuando hagas clic en "¡SÍ, QUIERO LA OFERTA!". Además, podrás pagar con los <span className="font-bold">métodos de pago locales de tu país.</span>
                   </p>
                 </div>
             </div>
