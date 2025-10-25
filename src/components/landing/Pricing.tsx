@@ -13,9 +13,9 @@ const offerItems = [
 
 export function Pricing() {
   return (
-    <section id="pricing" className="py-16 sm:py-24">
+    <section id="pricing" className="py-16 sm:py-24" style={{ backgroundColor: '#921C1C' }}>
       <div className="container">
-        <div className="mx-auto max-w-4xl overflow-hidden rounded-2xl shadow-2xl shadow-primary/10 border border-primary/10">
+        <div className="mx-auto max-w-4xl overflow-hidden rounded-2xl shadow-2xl shadow-primary/10">
           <div className="grid md:grid-cols-2">
             <div className="bg-primary/5 p-8 md:p-12">
               <h3 className="font-headline text-2xl font-bold text-primary">
