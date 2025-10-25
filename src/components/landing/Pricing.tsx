@@ -49,6 +49,14 @@ export function Pricing() {
                   <a href="#">¡SÍ, QUIERO LA OFERTA!</a>
                 </Button>
                 <p className="mt-4 text-sm text-muted-foreground">Compra 100% segura. 30 días de garantía.</p>
+                <div className="mt-6 text-sm">
+                  <h3 className="inline-block bg-destructive px-2 py-1 text-base font-bold text-destructive-foreground">
+                    ¡NO TE PREOCUPES!
+                  </h3>
+                  <p className="mt-2 text-foreground/80 text-balance">
+                    El valor de $4,90 USD se convertirá automáticamente a la moneda de tu país cuando hagas clic en "¡SÍ, QUIERO LA OFERTA!". Además, podrás pagar con los métodos de pago locales de tu país.
+                  </p>
+                </div>
             </div>
           </div>
         </div>
