@@ -12,7 +12,7 @@ export function Footer() {
   return (
     <footer className="bg-primary/5 py-8">
       <div className="container text-center text-sm text-foreground/60">
-        <p>&copy; {year} Panettone Profits. Todos los derechos reservados.</p>
+        <p>&copy; {year} Panettones Rentables. Todos los derechos reservados.</p>
         <p className="mt-2">
             Una empresa dedicada a tu éxito culinario y financiero.
         </p>
