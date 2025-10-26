@@ -5,7 +5,7 @@ export function Hero() {
   return (
     <section className="relative h-[90svh] min-h-[700px] w-full overflow-hidden bg-primary/10 flex items-center justify-center">
       <Image
-        src="/images/fundo da primeira seção.jpg"
+        src="/images/fundo da primeira seção.webp"
         alt="Panetone delicioso em um fundo festivo"
         fill
         className="object-cover object-center"
