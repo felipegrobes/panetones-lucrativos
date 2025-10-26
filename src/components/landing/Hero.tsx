@@ -22,7 +22,10 @@ export function Hero() {
           <p className="mt-6 text-lg leading-8 text-foreground/80 md:text-xl text-balance">
             Aprende las recetas más rentables y fáciles de panetones y gana dinero esta Navidad. ¡No te quedes atrás!
           </p>
-          <div className="mt-10 mb-4 flex items-center justify-center gap-x-6">
+          <div className="mt-6 flex justify-center">
+            <Image src="/images/logo.webp" alt="Panettone Profits Logo" width={128} height={128} />
+          </div>
+          <div className="mt-8 flex items-center justify-center gap-x-6">
             <Button asChild size="lg" className="font-bold shadow-lg shadow-primary/30">
               <a href="#pricing">Quiero Empezar Ahora</a>
             </Button>
