@@ -9,6 +9,7 @@ import { PainPoints } from '@/components/landing/PainPoints';
 import { Faq } from '@/components/landing/Faq';
 import { Footer } from '@/components/landing/Footer';
 import { SectionSeparator } from '@/components/landing/SectionSeparator';
+import { InstagramPrompterSection } from '@/components/landing/InstagramPrompterSection';
 
 export default function Home() {
   return (
@@ -23,6 +24,8 @@ export default function Home() {
         <SectionSeparator />
         <About />
         <PainPoints />
+        <SectionSeparator />
+        <InstagramPrompterSection />
         <SectionSeparator />
         <Faq />
       </main>

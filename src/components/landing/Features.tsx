@@ -1,21 +1,27 @@
-import { BookOpen, BarChart, ShoppingBag } from 'lucide-react';
+import Image from 'next/image';
 import { Card, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 
 const features = [
   {
-    icon: <BookOpen className="h-8 w-8 text-primary" />,
+    image: '/images/logo.webp',
     title: '100 Recetas de Panetones Rentables',
     description: '100 recetas de panetones deliciosos y fáciles de preparar que se venden muchísimo.',
+    width: 64,
+    height: 64,
   },
   {
-    icon: <BarChart className="h-8 w-8 text-primary" />,
+    image: '/images/Tabla de Precios.webp',
     title: 'Tabla de Precios',
     description: 'No tienes que preocuparte por la fijación de precios, nosotros te ayudaremos para que pongas el precio justo y obtengas grandes ganancias.',
+    width: 64,
+    height: 64,
   },
   {
-    icon: <ShoppingBag className="h-8 w-8 text-primary" />,
+    image: '/images/Guía para Vender.webp',
     title: 'Guía para Vender Panetones',
     description: 'Te enseñaremos paso a paso las mejores estrategias de venta para que vendas mucho.',
+    width: 64,
+    height: 64,
   },
 ];
 
@@ -33,11 +39,13 @@ export function Features() {
         </div>
         <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3">
           {features.map((feature, i) => (
-            <Card key={i} className="transform border-primary/10 bg-card/50 transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-primary/20">
-              <CardHeader>
-                <div className="mb-4">{feature.icon}</div>
-                <CardTitle className="font-headline text-xl">{feature.title}</CardTitle>
-                <CardDescription className="pt-2 text-base text-foreground/70">{feature.description}</CardDescription>
+            <Card key={i} className="transform border-primary/10 bg-card/50 transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-primary/20 flex flex-col">
+              <CardHeader className="flex-grow">
+                <div className="mb-4 flex justify-center">
+                    <Image src={feature.image} alt={feature.title} width={feature.width} height={feature.height} className="object-contain" />
+                </div>
+                <CardTitle className="font-headline text-xl text-center">{feature.title}</CardTitle>
+                <CardDescription className="pt-2 text-base text-foreground/70 text-center">{feature.description}</CardDescription>
               </CardHeader>
             </Card>
           ))}

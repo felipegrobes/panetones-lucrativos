@@ -1,4 +1,4 @@
-import { ShieldCheck } from 'lucide-react';
+import Image from 'next/image';
 
 export function Guarantee() {
   return (
@@ -6,7 +6,7 @@ export function Guarantee() {
       <div className="container">
         <div className="mx-auto flex max-w-4xl flex-col items-center gap-6 rounded-xl border-2 border-accent/50 bg-background p-8 text-center shadow-lg md:flex-row md:gap-12 md:text-left">
           <div className="flex-shrink-0">
-            <ShieldCheck className="h-24 w-24 text-accent" />
+            <Image src="/images/garantia.webp" alt="Selo de garantia de 30 dias" width={150} height={150} className="object-contain" />
           </div>
           <div>
             <h2 className="font-headline text-3xl font-bold text-primary">

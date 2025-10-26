@@ -1,22 +1,16 @@
 import Image from 'next/image';
 import { Button } from '@/components/ui/button';
-import { PlaceHolderImages } from '@/lib/placeholder-images';
 
 export function Hero() {
-  const heroImage = PlaceHolderImages.find(img => img.id === 'panettone-hero');
-
   return (
     <section className="relative h-[90svh] min-h-[700px] w-full overflow-hidden bg-primary/10 flex items-center justify-center">
-      {heroImage && (
-        <Image
-          src={heroImage.imageUrl}
-          alt={heroImage.description}
-          fill
-          className="object-cover object-center"
-          priority
-          data-ai-hint={heroImage.imageHint}
-        />
-      )}
+      <Image
+        src="/images/fundo da primeira seção.jpg"
+        alt="Panetone delicioso em um fundo festivo"
+        fill
+        className="object-cover object-center"
+        priority
+      />
       <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent" />
       <div className="absolute inset-0 bg-gradient-to-r from-background via-background/50 to-transparent" />
       
