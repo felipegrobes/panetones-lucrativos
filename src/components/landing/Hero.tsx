@@ -15,7 +15,7 @@ export function Hero() {
       <div className="absolute inset-0 bg-gradient-to-r from-background via-background/50 to-transparent" />
       
       <div className="container relative z-10 text-center">
-        <div className="max-w-3xl mx-auto pt-24">
+        <div className="max-w-3xl mx-auto pt-12">
           <h1 className="font-headline text-4xl font-bold tracking-tight text-primary md:text-6xl lg:text-7xl text-balance">
             ¡Transforma tu Navidad en algo lucrativo, incluso comenzando desde cero!
           </h1>
@@ -25,7 +25,7 @@ export function Hero() {
           <div className="mt-8 flex justify-center">
             <Image src="/images/logo.webp" alt="Logo Panettone Profits" width={150} height={150} className="object-contain" />
           </div>
-          <div className="mt-10 flex items-center justify-center gap-x-6">
+          <div className="mt-10 mb-4 flex items-center justify-center gap-x-6">
             <Button asChild size="lg" className="font-bold shadow-lg shadow-primary/30">
               <a href="#pricing">Quiero Empezar Ahora</a>
             </Button>
