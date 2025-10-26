@@ -3,7 +3,7 @@ import { Button } from '@/components/ui/button';
 
 export function Hero() {
   return (
-    <section className="relative h-[108svh] min-h-[840px] w-full overflow-hidden bg-primary/10 flex items-center justify-center">
+    <section className="relative h-[129.6svh] min-h-[1008px] w-full overflow-hidden bg-primary/10 flex items-center justify-center">
       <Image
         src="/images/fundo da primeira seção.webp"
         alt="Panetone delicioso em um fundo festivo"
@@ -14,7 +14,7 @@ export function Hero() {
       <div className="absolute inset-0 bg-gradient-to-t from-background via-background/80 to-transparent" />
       <div className="absolute inset-0 bg-gradient-to-r from-background via-background/50 to-transparent" />
       
-      <div className="container relative z-10 text-center">
+      <div className="container relative z-10 text-center px-0">
         <div className="max-w-3xl mx-auto px-4 sm:px-0">
           <h1 className="font-headline text-4xl font-bold tracking-tight text-primary md:text-6xl lg:text-7xl text-balance">
             ¡Transforma tu Navidad en algo lucrativo, incluso comenzando desde cero!
