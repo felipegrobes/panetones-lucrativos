@@ -27,7 +27,7 @@ const features = [
 
 export function Features() {
   return (
-    <section id="features" className="pt-0 pb-16 sm:pb-24">
+    <section id="features" className="pt-16 sm:pt-24 pb-16 sm:pb-24">
       <div className="container">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="font-headline text-3xl font-bold text-primary sm:text-4xl">
@@ -42,7 +42,7 @@ export function Features() {
             <Card key={i} className="transform border-[#FF0000] bg-white transition-transform duration-300 hover:-translate-y-2 shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 flex flex-col">
               <CardHeader className="flex-grow">
                 <div className="mb-4 flex justify-center">
-                    <Image src={feature.image} alt={feature.title} width={feature.width} height={feature.height} className="object-contain rounded-xl" />
+                    <Image src={feature.image} alt={feature.title} width={feature.width} height={feature.height} className="object-contain rounded-[5%]" />
                 </div>
                 <CardTitle className="font-headline text-xl text-center">{feature.title}</CardTitle>
                 <CardDescription className="pt-2 text-base text-foreground/70 text-center">{feature.description}</CardDescription>
