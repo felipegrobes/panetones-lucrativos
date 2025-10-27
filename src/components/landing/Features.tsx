@@ -6,22 +6,22 @@ const features = [
     image: '/images/logo.webp',
     title: '100 Recetas de Panetones Rentables',
     description: '100 recetas de panetones deliciosos y fáciles de preparar que se venden muchísimo.',
-    width: 180,
-    height: 180,
+    width: 126,
+    height: 126,
   },
   {
     image: '/images/Tabla de Precios.webp',
     title: 'Tabla de Precios',
     description: 'No tienes que preocuparte por la fijación de precios, nosotros te ayudaremos para que pongas el precio justo y obtengas grandes ganancias.',
-    width: 180,
-    height: 180,
+    width: 126,
+    height: 126,
   },
   {
     image: '/images/Guía para Vender.webp',
     title: 'Guía para Vender Panetones',
     description: 'Te enseñaremos paso a paso las mejores estrategias de venta para que vendas mucho.',
-    width: 180,
-    height: 180,
+    width: 126,
+    height: 126,
   },
 ];
 
@@ -42,7 +42,7 @@ export function Features() {
             <Card key={i} className="transform border-primary/10 bg-white transition-transform duration-300 hover:-translate-y-2 shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 flex flex-col">
               <CardHeader className="flex-grow">
                 <div className="mb-4 flex justify-center">
-                    <Image src={feature.image} alt={feature.title} width={252} height={252} className={`object-contain ${i === 0 ? '' : 'border-2 border-[#FF0000] rounded-xl'}`} />
+                    <Image src={feature.image} alt={feature.title} width={feature.width} height={feature.height} className={`object-contain ${i === 0 ? '' : 'border-2 border-[#FF0000] rounded-xl'}`} />
                 </div>
                 <CardTitle className="font-headline text-xl text-center">{feature.title}</CardTitle>
                 <CardDescription className="pt-2 text-base text-foreground/70 text-center">{feature.description}</CardDescription>
