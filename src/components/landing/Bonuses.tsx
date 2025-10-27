@@ -49,7 +49,7 @@ export function Bonuses() {
         </div>
         <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-4">
           {bonuses.map((bonus) => (
-            <Card key={bonus.number} className="transform border-primary/10 bg-white transition-transform duration-300 hover:-translate-y-2 shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 flex flex-col">
+            <Card key={bonus.number} className="transform border-[#FF0000] bg-white transition-transform duration-300 hover:-translate-y-2 shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 flex flex-col">
               <CardHeader className="flex-grow">
                 <div className="mb-4 flex justify-center">
                     <Image src={bonus.image} alt={bonus.title} width={bonus.width} height={bonus.height} className="object-contain border-2 border-[#FF0000] rounded-xl" />
