@@ -6,22 +6,22 @@ const features = [
     image: '/images/logo.webp',
     title: '100 Recetas de Panetones Rentables',
     description: '100 recetas de panetones deliciosos y fáciles de preparar que se venden muchísimo.',
-    width: 256,
-    height: 256,
+    width: 180,
+    height: 180,
   },
   {
     image: '/images/Tabla de Precios.webp',
     title: 'Tabla de Precios',
     description: 'No tienes que preocuparte por la fijación de precios, nosotros te ayudaremos para que pongas el precio justo y obtengas grandes ganancias.',
-    width: 256,
-    height: 256,
+    width: 180,
+    height: 180,
   },
   {
     image: '/images/Guía para Vender.webp',
     title: 'Guía para Vender Panetones',
     description: 'Te enseñaremos paso a paso las mejores estrategias de venta para que vendas mucho.',
-    width: 256,
-    height: 256,
+    width: 180,
+    height: 180,
   },
 ];
 
