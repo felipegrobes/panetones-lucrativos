@@ -52,7 +52,7 @@ export function Bonuses() {
             <Card key={bonus.number} className="transform border-[#FF0000] bg-white transition-transform duration-300 hover:-translate-y-2 shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 flex flex-col">
               <CardHeader className="flex-grow">
                 <div className="mb-4 flex justify-center">
-                    <Image src={bonus.image} alt={bonus.title} width={bonus.width} height={bonus.height} className="object-contain border-2 border-[#FF0000] rounded-xl" />
+                    <Image src={bonus.image} alt={bonus.title} width={bonus.width} height={bonus.height} className="object-contain rounded-xl" />
                 </div>
                 <CardTitle className="font-headline text-xl text-center">Regalo #{bonus.number}: {bonus.title}</CardTitle>
                 <CardDescription className="pt-2 text-base text-foreground/70 text-center">{bonus.description}</CardDescription>
