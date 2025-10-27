@@ -23,7 +23,6 @@ export default function Home() {
         <Bonuses />
         <SectionSeparator />
         <Guarantee />
-        <SectionSeparator />
         <Pricing />
         <SectionSeparator />
         <About />
