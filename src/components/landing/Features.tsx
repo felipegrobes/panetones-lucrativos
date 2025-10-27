@@ -42,7 +42,7 @@ export function Features() {
             <Card key={i} className="transform border-primary/10 bg-card/50 transition-transform duration-300 hover:-translate-y-2 hover:shadow-xl hover:border-primary/20 flex flex-col">
               <CardHeader className="flex-grow">
                 <div className="mb-4 flex justify-center">
-                    <Image src={feature.image} alt={feature.title} width={feature.width} height={feature.height} className="object-contain border-2 border-[#FF0000] rounded-xl" />
+                    <Image src={feature.image} alt={feature.title} width={feature.width} height={feature.height} className={`object-contain ${i === 0 ? '' : 'border-2 border-[#FF0000] rounded-xl'}`} />
                 </div>
                 <CardTitle className="font-headline text-xl text-center">{feature.title}</CardTitle>
                 <CardDescription className="pt-2 text-base text-foreground/70 text-center">{feature.description}</CardDescription>
