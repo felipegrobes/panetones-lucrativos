@@ -2,7 +2,7 @@ import { Check } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const offerItems = [
-  '100 Recetas de Panetones Rentables',
+  '+100 Recetas de Panetones Rentables',
   'Tabla de Precios',
   'Guía para Vender Panetones',
   '15 Recetas de Panetones Fitness',

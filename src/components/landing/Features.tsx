@@ -4,7 +4,7 @@ import { Card, CardHeader, CardTitle, CardDescription } from '@/components/ui/ca
 const features = [
   {
     image: '/images/logo.webp',
-    title: '100 Recetas de Panetones Rentables',
+    title: '+100 Recetas de Panetones Rentables',
     description: '100 recetas de panetones deliciosos y fáciles de preparar que se venden muchísimo.',
     width: 126,
     height: 126,
