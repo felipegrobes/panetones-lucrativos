@@ -23,7 +23,7 @@ const bonuses = [
   {
     image: '/images/regalo3.webp',
     title: 'Hoja de Cálculo de Costos + Simulador de Ganancias',
-    description: 'Sabe exactamente cuánto estás gastando y cuánto estás ganando con cada venta.',
+    description: 'Sabrás exactamente cuánto estás gastando y cuánto estás ganando con cada venta.',
     number: 3,
     width: 144,
     height: 144,

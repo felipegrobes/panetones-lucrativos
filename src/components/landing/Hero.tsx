@@ -20,7 +20,7 @@ export function Hero() {
           </div>
           <div className="mt-8 flex items-center justify-center gap-x-6">
             <Button asChild size="lg" className="font-bold shadow-lg shadow-primary/30">
-              <a href="#features">Quero Empezar Ahora</a>
+              <a href="#features">Quiero Empezar Ahora</a>
             </Button>
           </div>
         </div>
