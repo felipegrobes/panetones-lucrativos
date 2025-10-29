@@ -33,7 +33,7 @@ export function Features() {
         </div>
         <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3">
           {features.map((feature, i) => (
-            <Card key={i} className="flex flex-col bg-card shadow-sm text-left">
+            <Card key={i} className="flex flex-col bg-card shadow-sm text-left transition-transform duration-300 transform hover:scale-105 hover:shadow-lg">
               <CardHeader className="flex-grow">
                 <div className="mb-4">
                   <feature.icon className="h-8 w-8 text-primary" />
