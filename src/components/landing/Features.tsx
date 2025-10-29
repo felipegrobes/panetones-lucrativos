@@ -1,27 +1,21 @@
-import Image from 'next/image';
+import { BookCopy, Target, Wallet } from 'lucide-react';
 import { Card, CardHeader, CardTitle, CardDescription } from '@/components/ui/card';
 
 const features = [
   {
-    image: '/images/produto.webp',
+    icon: BookCopy,
     title: '+100 Recetas de Panetones Rentables',
     description: '100 recetas de panetones deliciosos y fáciles de preparar que se venden muchísimo.',
-    width: 126,
-    height: 126,
   },
   {
-    image: '/images/Tabla de Precios.webp',
+    icon: Target,
     title: 'Tabla de Precios',
     description: 'No tienes que preocuparte por la fijación de precios, nosotros te ayudaremos para que pongas el precio justo y obtengas grandes ganancias.',
-    width: 126,
-    height: 126,
   },
   {
-    image: '/images/Guía para Vender.webp',
+    icon: Wallet,
     title: 'Guía para Vender Panetones',
     description: 'Te enseñaremos paso a paso las mejores estrategias de venta para que vendas mucho.',
-    width: 126,
-    height: 126,
   },
 ];
 
@@ -39,10 +33,12 @@ export function Features() {
         </div>
         <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3">
           {features.map((feature, i) => (
-            <Card key={i} className="transform border-[#FF0000] bg-white transition-transform duration-300 hover:-translate-y-2 shadow-lg shadow-primary/20 hover:shadow-xl hover:shadow-primary/30 flex flex-col">
+            <Card key={i} className="flex flex-col bg-card/50">
               <CardHeader className="flex-grow">
                 <div className="mb-4 flex justify-center">
-                    <Image src={feature.image} alt={feature.title} width={feature.width} height={feature.height} className="object-contain rounded-[5%]" />
+                  <div className="flex h-16 w-16 items-center justify-center rounded-full bg-primary text-primary-foreground">
+                    <feature.icon className="h-8 w-8" />
+                  </div>
                 </div>
                 <CardTitle className="font-headline text-xl text-center">{feature.title}</CardTitle>
                 <CardDescription className="pt-2 text-base text-foreground/70 text-center">{feature.description}</CardDescription>
