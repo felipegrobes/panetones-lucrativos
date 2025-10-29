@@ -16,6 +16,9 @@ export default {
       },
     },
     extend: {
+      backgroundImage: {
+        'hero-pattern': "url('/images/fundo_da_primeira_seção.webp')",
+      },
       fontFamily: {
         body: ['var(--font-open-sans)', 'sans-serif'],
         headline: ['var(--font-montserrat)', 'serif'],
