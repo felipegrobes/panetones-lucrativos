@@ -6,7 +6,7 @@ export function Hero() {
     <section className="relative h-[103.68svh] min-h-[806px] w-full overflow-hidden bg-primary/10 flex items-start justify-center pt-12">
       <Image
         src="/images/fundo da primeira seção.webp"
-        alt="Panetone delicioso em um fundo festivo"
+        alt=""
         fill
         className="object-cover object-center"
         priority
@@ -27,7 +27,7 @@ export function Hero() {
           </div>
           <div className="mt-8 flex items-center justify-center gap-x-6">
             <Button asChild size="lg" className="font-bold shadow-lg shadow-primary/30">
-              <a href="#features">Quiero Empezar Ahora</a>
+              <a href="#features">Quero Empezar Ahora</a>
             </Button>
           </div>
         </div>
