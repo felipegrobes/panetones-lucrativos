@@ -20,7 +20,6 @@ export default function Home() {
         <Features />
         <SectionSeparator />
         <Pitch />
-        <InstagramPrompterSection />
         <SectionSeparator />
         <Bonuses />
         <SectionSeparator />
