@@ -1,22 +1,15 @@
 import type { Metadata } from 'next';
-import { Montserrat, Open_Sans } from 'next/font/google';
+import { Poppins } from 'next/font/google';
 import Script from 'next/script';
 import './globals.css';
 import { Toaster } from "@/components/ui/toaster";
 import { cn } from '@/lib/utils';
 
-const openSans = Open_Sans({
+const poppins = Poppins({
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-open-sans',
+  variable: '--font-poppins',
   weight: ['400', '700'],
-});
-
-const montserrat = Montserrat({
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-montserrat',
-  weight: ['400', '700', '900'],
 });
 
 export const metadata: Metadata = {
@@ -33,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" className={cn(openSans.variable, montserrat.variable)}>
+    <html lang="es" className={cn(poppins.variable)}>
       <body>
         <Script id="fb-pixel" strategy="afterInteractive">
           {`

@@ -20,8 +20,8 @@ export default {
         'hero-pattern': "url('/images/fundo_da_primeira_seção.webp')",
       },
       fontFamily: {
-        body: ['var(--font-open-sans)', 'sans-serif'],
-        headline: ['var(--font-montserrat)', 'serif'],
+        body: ['var(--font-poppins)', 'sans-serif'],
+        headline: ['var(--font-poppins)', 'sans-serif'],
         code: ['monospace'],
       },
       colors: {
