@@ -5,9 +5,6 @@ export function Pitch() {
     <section className="bg-primary/5 py-16 sm:py-24">
       <div className="container">
         <div className="mx-auto max-w-3xl text-center">
-          <h2 className="font-headline text-3xl font-bold text-primary sm:text-4xl text-balance">
-            Te enseñaré a preparar, poner precio y vender los panetones
-          </h2>
           <div className="mt-8 flex justify-center">
             {/* The user requested to remove the image here */}
           </div>
