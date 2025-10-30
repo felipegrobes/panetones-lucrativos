@@ -7,7 +7,7 @@ export function Guarantee() {
       <div className="container text-center">
         <div className="mx-auto flex max-w-4xl flex-col items-center gap-6 rounded-xl border-2 border-accent/50 bg-white p-8 text-center shadow-lg md:flex-row md:gap-12 md:text-left">
           <div className="flex-shrink-0">
-            <Image src="/images/garantia.webp" alt="Selo de garantia de 30 dias" width={150} height={150} className="object-contain" />
+            <Image src="/images/garantia.webp" alt="Selo de garantia de 30 dias" width={150} height={150} loading="lazy" className="object-contain" />
           </div>
           <div>
             <h2 className="font-headline text-3xl font-bold text-primary">
