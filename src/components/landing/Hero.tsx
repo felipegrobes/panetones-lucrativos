@@ -10,7 +10,7 @@ export function Hero() {
             ¡Aumenta tus ventas esta Navidad y gana más con Panetones Gourmet!
           </h1>
           <p className="mt-6 text-lg leading-8 text-foreground/80 md:text-xl text-balance">
-            Aprende las recetas más rentables y fáciles de panetones y gana dinero esta Navidad. ¡No te quedes atrás!
+            Aprende las recetas de Panetones Gourmet más rentables y que más se venden. ¡No te quedes atrás!
           </p>
           <div className="mt-6 flex justify-center">
             <Image src="/images/produto.webp" alt="Libros de Recetas de Panettone" width={512} height={512} priority />
