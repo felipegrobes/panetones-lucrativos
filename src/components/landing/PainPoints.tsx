@@ -34,7 +34,7 @@ export function PainPoints() {
               ¡Ha llegado el momento de cambiar eso!
             </h3>
             <p className="mt-4 text-lg text-foreground/80">
-              Con las recetas correctas y el conocimiento para vender, puedes transformar tu realidad financiera esta misma Navidad.
+              ¡Con nuestras variedades de recetas gourmet puedes transformar esta Navidad en la mejor de todas!
             </p>
           </div>
         </div>
