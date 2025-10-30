@@ -31,7 +31,7 @@ const bonuses = [
   {
     image: '/images/regalo4.webp',
     title: 'Instagram Rentable',
-    description: 'Aprende a vender en Instagram y atraer clientes, incluso sin mostrarte.',
+    description: 'Vende más en Instagram y atrae más clientes con estrategias de marketing.',
     number: 4,
     width: 144,
     height: 144,
