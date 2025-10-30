@@ -1,6 +1,5 @@
 import { Hero } from '@/components/landing/Hero';
 import { Features } from '@/components/landing/Features';
-import { Pitch } from '@/components/landing/Pitch';
 import { Bonuses } from '@/components/landing/Bonuses';
 import { Guarantee } from '@/components/landing/Guarantee';
 import { Pricing } from '@/components/landing/Pricing';
@@ -17,8 +16,6 @@ export default function Home() {
         <Hero />
         <SectionSeparator />
         <Features />
-        <SectionSeparator />
-        <Pitch />
         <SectionSeparator />
         <Bonuses />
         <SectionSeparator />
