@@ -15,7 +15,7 @@ const bonuses = [
   {
     image: '/images/regalo2.webp',
     title: 'Guía de Empaques Económicos y Bonitos',
-    description: 'Aprende a empacar cada panetón de forma sencilla y atractiva.',
+    description: 'Aumenta tus márgenes de ganancia con empaques sofisticados.',
     number: 2,
     width: 144,
     height: 144,
