@@ -2,8 +2,8 @@ import { CheckIcon, CrossIcon } from './icons';
 
 const pains = [
   '¿Ver pasar la Navidad y no vender como deberías?',
-  '¿Perder la oportunidad de aprovechar la época más lucrativa del año?',
   '¿Depender siempre de las mismas recetas que ya no se venden tanto?',
+  '¿Perder la oportunidad de aprovechar la época más lucrativa del año?',
 ];
 
 export function PainPoints() {
