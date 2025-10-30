@@ -6,7 +6,7 @@ const offerItems = [
   'Tabla de Precios',
   'Guía para Vender Panetones',
   '15 Recetas de Panetones Fitness',
-  'Guía de Empaques Económicos y Bonitos',
+  'Guía de Empaques Elegantes y Rentables',
   'Hoja de Cálculo de Costos + Simulador de Ganancias',
   'Instagram Rentable',
 ];
