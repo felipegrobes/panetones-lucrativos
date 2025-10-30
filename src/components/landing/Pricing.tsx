@@ -46,7 +46,7 @@ export function Pricing() {
                     $4,90<span className="text-2xl font-medium text-foreground/50"> USD</span>
                 </p>
                 <Button asChild size="lg" className="mt-8 w-full font-bold text-base sm:text-lg py-6 sm:py-8 shadow-lg shadow-primary/30 transform transition-transform hover:scale-105">
-                  <a href="https://pay.hotmart.com/X102635608N?checkoutMode=10">¡SÍ, QUIERO LA OFERTA!</a>
+                  <a href="https://pay.hotmart.com/P102692813C?checkoutMode=10">¡SÍ, QUIERO LA OFERTA!</a>
                 </Button>
                 <p className="mt-4 text-sm text-muted-foreground">Compra 100% segura. 30 días de garantía.</p>
                 <div className="mt-6 text-sm">
