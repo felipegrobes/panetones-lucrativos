@@ -7,7 +7,7 @@ export function Hero() {
       <div className="container relative z-10 text-center px-4">
         <div className="max-w-3xl mx-auto px-0">
           <h1 className="font-headline text-4xl font-bold tracking-tight text-primary md:text-6xl lg:text-7xl text-balance">
-            ¡Transforma tu Navidad en algo lucrativo, incluso comenzando desde cero!
+            ¡Aumenta tus ventas esta Navidad y gana más con Panetones Gourmet!
           </h1>
           <p className="mt-6 text-lg leading-8 text-foreground/80 md:text-xl text-balance">
             Aprende las recetas más rentables y fáciles de panetones y gana dinero esta Navidad. ¡No te quedes atrás!
