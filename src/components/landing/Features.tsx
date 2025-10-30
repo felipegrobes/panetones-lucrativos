@@ -5,7 +5,7 @@ const features = [
   {
     icon: BookCopy,
     title: '+100 Recetas de Panetones Rentables',
-    description: '100 recetas de panetones deliciosos y fáciles de preparar que se venden muchísimo.',
+    description: 'Más de 100 recetas de panetones gourmet deliciosos que se venden muchísimo.',
   },
   {
     icon: Target,
