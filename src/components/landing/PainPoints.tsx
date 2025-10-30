@@ -1,10 +1,9 @@
 import { CheckIcon, CrossIcon } from './icons';
 
 const pains = [
-  'Ver pasar la Navidad sin ganar dinero extra?',
-  'Perder la oportunidad de aprovechar la época más rentable del año?',
-  'No saber por dónde empezar un negocio rentable?',
-  'Depender solo del salario y no tener ingresos adicionales?',
+  '¿Ver pasar la Navidad y no vender como deberías?',
+  '¿Perder la oportunidad de aprovechar la época más lucrativa del año?',
+  '¿Depender siempre de las mismas recetas que ya no se venden tanto?',
 ];
 
 export function PainPoints() {
