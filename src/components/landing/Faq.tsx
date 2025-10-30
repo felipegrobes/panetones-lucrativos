@@ -12,10 +12,6 @@ const faqs = [
     answer: 'Una vez realizada la compra, recibirás un enlace de acceso directamente en tu correo electrónico. Si necesitas ayuda, escríbenos a: digitalpay.ofc@gmail.com',
   },
   {
-    question: '¿Necesito experiencia para hacer panetones?',
-    answer: '¡No! Las recetas son paso a paso, perfectas para principiantes. ¡Aprenderás desde cero!',
-  },
-  {
     question: '¿Es seguro comprar aquí?',
     answer: 'Sí, es 100% seguro. La transacción está protegida por la tecnología de seguridad avanzada de Hotmart (empresa líder en pagos y alojamiento de productos digitales).',
   },
