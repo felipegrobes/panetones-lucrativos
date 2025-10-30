@@ -7,7 +7,7 @@ const bonuses = [
   {
     image: '/images/regalo1.webp',
     title: '15 Recetas de Panetones Fitness',
-    description: 'Recetas especiales para personas que desean cuidar su salud.',
+    description: 'Aumenta tus ventas con panetones saludables para personas que desean cuidar su salud.',
     number: 1,
     width: 144,
     height: 144,
