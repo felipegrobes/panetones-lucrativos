@@ -13,7 +13,7 @@ export function Hero() {
             Aprende las recetas de Panetones Gourmet más rentables y que más se venden. ¡No te quedes atrás!
           </p>
           <div className="mt-6 flex justify-center">
-            <Image src="/images/produto.webp" alt="Libros de Recetas de Panettone" width={512} height={512} priority />
+            <Image src="/images/mouckp.webp" alt="Libros de Recetas de Panettone" width={512} height={512} priority />
           </div>
           <div className="mt-8 flex items-center justify-center gap-x-6">
             <Button asChild size="lg" className="font-bold shadow-lg shadow-primary/30">
