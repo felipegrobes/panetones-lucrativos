@@ -28,7 +28,7 @@ export function Features() {
             ¿POR QUÉ DEBERÍAS COMPRAR?
           </h2>
           <p className="mt-4 text-lg text-foreground/80">
-            Este combo fue cuidadosamente creado para tu éxito en esta Navidad. Mira todo lo que recibirás:
+            Este combo fue cuidadosamente creado para tu éxito en esta Navidad:
           </p>
         </div>
         <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3">
