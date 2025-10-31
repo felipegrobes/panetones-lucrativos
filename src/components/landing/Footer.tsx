@@ -16,6 +16,7 @@ export function Footer() {
         <p className="mt-2">
             Una empresa dedicada a tu éxito culinario y financiero.
         </p>
+        <p className="mt-2">Imágenes meramente ilustrativas</p>
       </div>
     </footer>
   );
