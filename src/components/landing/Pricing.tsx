@@ -14,10 +14,10 @@ const offerItems = [
 export function Pricing() {
   return (
     <section id="pricing" className="py-16 sm:py-24" style={{ backgroundColor: '#921C1C' }}>
-      <div className="container">
+      <div className="container px-4 sm:px-6">
         <div className="mx-auto max-w-4xl overflow-hidden rounded-2xl shadow-2xl shadow-primary/10">
-          <div className="grid md:grid-cols-2">
-            <div className="p-8 md:p-12" style={{ backgroundColor: '#F3D2D1' }}>
+          <div className="grid grid-cols-1 md:grid-cols-2">
+            <div className="p-6 sm:p-8 md:p-12" style={{ backgroundColor: '#F3D2D1' }}>
               <h3 className="font-headline text-2xl font-bold text-primary">
                 ¡ATENCIÓN!
               </h3>
@@ -36,7 +36,7 @@ export function Pricing() {
                 ))}
               </ul>
             </div>
-            <div className="flex flex-col justify-center bg-background p-8 text-center">
+            <div className="flex flex-col justify-center bg-background p-6 sm:p-8 text-center">
                 <p className="font-semibold text-muted-foreground">Acceso Vitalicio</p>
                 <p className="mt-4 text-xl text-muted-foreground line-through">
                     De $40,00 USD
