@@ -6,7 +6,7 @@ export function Hero() {
     <section className="relative bg-primary/10 flex items-start justify-center pt-16 pb-12">
       <div className="container relative z-10 text-center px-4">
         <div className="max-w-3xl mx-auto px-0">
-          <h1 className="font-headline text-4xl font-bold tracking-tight text-primary md:text-6xl lg:text-7xl text-balance bg-gradient-to-r from-primary to-[#ff0000] bg-clip-text text-transparent">
+          <h1 className="font-headline text-4xl sm:text-5xl font-bold tracking-tight text-primary md:text-6xl lg:text-7xl text-balance bg-gradient-to-r from-primary to-[#ff0000] bg-clip-text text-transparent">
             ¡Gana Mucho Dinero en Navidad con Panetones Gourmet!
           </h1>
           <p className="mt-6 text-lg leading-8 text-foreground/80 md:text-xl text-balance">
