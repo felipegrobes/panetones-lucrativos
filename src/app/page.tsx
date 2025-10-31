@@ -17,6 +17,7 @@ export default function Home() {
         <Hero />
         <SectionSeparator />
         <Features />
+        <SectionSeparator />
         <Pitch />
         <SectionSeparator />
         <Bonuses />
