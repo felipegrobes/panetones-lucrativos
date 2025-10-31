@@ -30,17 +30,18 @@ export function Pitch() {
         </div>
         <div className="mt-12 grid grid-cols-1 gap-8 md:grid-cols-3">
           {recipes.map((recipe) => (
-            <div key={recipe.name} className="flex flex-col items-center text-center">
+            <div key={recipe.name} className="relative group overflow-hidden rounded-lg shadow-lg">
               <Image 
                 src={recipe.image} 
                 alt={recipe.alt} 
                 width={300} 
                 height={300} 
-                className="rounded-lg shadow-lg object-cover w-full h-64 transition-transform duration-300 transform hover:scale-105"
+                className="object-cover w-full h-64 transition-transform duration-300 transform group-hover:scale-105"
               />
-              <div className="mt-4 flex items-center gap-2 justify-center">
-                <CheckCircle className="h-6 w-6 text-green-500 flex-shrink-0" />
-                <span className="text-lg text-foreground/80">{recipe.name}</span>
+              <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+              <div className="absolute bottom-0 left-0 p-4 flex items-center gap-2">
+                <CheckCircle className="h-6 w-6 text-green-400 flex-shrink-0" />
+                <span className="text-lg text-white font-semibold">{recipe.name}</span>
               </div>
             </div>
           ))}
